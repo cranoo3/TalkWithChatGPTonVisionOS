@@ -10,42 +10,34 @@ import RealityKit
 import RealityKitContent
 
 struct ContentView: View {
-
-    @State private var showImmersiveSpace = false
-    @State private var immersiveSpaceIsShown = false
-
-    @Environment(\.openImmersiveSpace) var openImmersiveSpace
-    @Environment(\.dismissImmersiveSpace) var dismissImmersiveSpace
-
+    @StateObject var viewModel = ContentViewModel()
+    
     var body: some View {
-        VStack {
-            Model3D(named: "Scene", bundle: realityKitContentBundle)
-                .padding(.bottom, 50)
-
-            Text("Hello, world!")
-
-            Toggle("Show Immersive Space", isOn: $showImmersiveSpace)
-                .toggleStyle(.button)
-                .padding(.top, 50)
+        NavigationStack {
+            VStack {
+                ChatView(viewModel: self.viewModel)
+                
+                Spacer()
+                
+                TextFieldAndSendButtonView(viewModel: self.viewModel)
+            }
+            .navigationTitle("Talk With ChatGPT on VisionOS")
         }
         .padding()
-        .onChange(of: showImmersiveSpace) { _, newValue in
-            Task {
-                if newValue {
-                    switch await openImmersiveSpace(id: "ImmersiveSpace") {
-                    case .opened:
-                        immersiveSpaceIsShown = true
-                    case .error, .userCancelled:
-                        fallthrough
-                    @unknown default:
-                        immersiveSpaceIsShown = false
-                        showImmersiveSpace = false
-                    }
-                } else if immersiveSpaceIsShown {
-                    await dismissImmersiveSpace()
-                    immersiveSpaceIsShown = false
-                }
+        // エラーが発生した時のアラート
+        .alert("エラーが発生しました", isPresented: $viewModel.isShowAlert) {
+            Button(role: .cancel) {
+                // 何もしないので処理はなし
+            } label: {
+                Text("何もしない")
             }
+            Button {
+                exit(-1)
+            } label: {
+                Text("アプリを終了する")
+            }
+        } message: {
+            Text(viewModel.alertMessage ?? "エラーです")
         }
     }
 }

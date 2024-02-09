@@ -14,6 +14,19 @@
 		5A441D942B73D2FD00F50C03 /* ImageBasedLighting.skybox in Resources */ = {isa = PBXBuildFile; fileRef = 5A441D932B73D2FD00F50C03 /* ImageBasedLighting.skybox */; };
 		5A441D962B73D2FE00F50C03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A441D952B73D2FE00F50C03 /* Assets.xcassets */; };
 		5A441D992B73D2FE00F50C03 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A441D982B73D2FE00F50C03 /* Preview Assets.xcassets */; };
+		5A441DA12B73D36300F50C03 /* TextFieldAndSendButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A441DA02B73D36300F50C03 /* TextFieldAndSendButtonView.swift */; };
+		5A441DA52B73D3EE00F50C03 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A441DA42B73D3EE00F50C03 /* ContentViewModel.swift */; };
+		5A441DA82B73D4EB00F50C03 /* SendChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A441DA72B73D4EB00F50C03 /* SendChatView.swift */; };
+		5A441DAA2B73D7FA00F50C03 /* ReceivedMessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A441DA92B73D7FA00F50C03 /* ReceivedMessagesView.swift */; };
+		5A441DAE2B73D9BF00F50C03 /* APIInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5A441DAD2B73D9BF00F50C03 /* APIInfo.plist */; };
+		5A441DB12B73DA2700F50C03 /* CommunicationError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A441DB02B73DA2700F50C03 /* CommunicationError.swift */; };
+		5A441DB42B73DA5B00F50C03 /* GetPropertyList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A441DB32B73DA5B00F50C03 /* GetPropertyList.swift */; };
+		5A441DB72B73DA9B00F50C03 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A441DB62B73DA9B00F50C03 /* Common.swift */; };
+		5A441DBC2B73DBAF00F50C03 /* APIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A441DBB2B73DBAF00F50C03 /* APIResponse.swift */; };
+		5A441DBE2B73DC1E00F50C03 /* APICliant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A441DBD2B73DC1E00F50C03 /* APICliant.swift */; };
+		5A441DC02B73E0FB00F50C03 /* RequestHttpBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A441DBF2B73E0FB00F50C03 /* RequestHttpBody.swift */; };
+		5A441DC32B73E36D00F50C03 /* MessageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A441DC22B73E36D00F50C03 /* MessageManager.swift */; };
+		5A441DC72B73F2EC00F50C03 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A441DC62B73F2EC00F50C03 /* ChatView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +39,19 @@
 		5A441D952B73D2FE00F50C03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5A441D982B73D2FE00F50C03 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5A441D9A2B73D2FE00F50C03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A441DA02B73D36300F50C03 /* TextFieldAndSendButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldAndSendButtonView.swift; sourceTree = "<group>"; };
+		5A441DA42B73D3EE00F50C03 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		5A441DA72B73D4EB00F50C03 /* SendChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendChatView.swift; sourceTree = "<group>"; };
+		5A441DA92B73D7FA00F50C03 /* ReceivedMessagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceivedMessagesView.swift; sourceTree = "<group>"; };
+		5A441DAD2B73D9BF00F50C03 /* APIInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = APIInfo.plist; sourceTree = "<group>"; };
+		5A441DB02B73DA2700F50C03 /* CommunicationError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunicationError.swift; sourceTree = "<group>"; };
+		5A441DB32B73DA5B00F50C03 /* GetPropertyList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetPropertyList.swift; sourceTree = "<group>"; };
+		5A441DB62B73DA9B00F50C03 /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		5A441DBB2B73DBAF00F50C03 /* APIResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIResponse.swift; sourceTree = "<group>"; };
+		5A441DBD2B73DC1E00F50C03 /* APICliant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICliant.swift; sourceTree = "<group>"; };
+		5A441DBF2B73E0FB00F50C03 /* RequestHttpBody.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestHttpBody.swift; sourceTree = "<group>"; };
+		5A441DC22B73E36D00F50C03 /* MessageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageManager.swift; sourceTree = "<group>"; };
+		5A441DC62B73F2EC00F50C03 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +88,10 @@
 			children = (
 				5A441D8D2B73D2FD00F50C03 /* TalkWithChatGPTonVisionOSApp.swift */,
 				5A441D8F2B73D2FD00F50C03 /* ContentView.swift */,
+				5A441DAD2B73D9BF00F50C03 /* APIInfo.plist */,
+				5A441DA22B73D36A00F50C03 /* Views */,
+				5A441DA32B73D3B300F50C03 /* ViewModel */,
+				5A441DAF2B73DA1100F50C03 /* Model */,
 				5A441D912B73D2FD00F50C03 /* ImmersiveView.swift */,
 				5A441D932B73D2FD00F50C03 /* ImageBasedLighting.skybox */,
 				5A441D952B73D2FE00F50C03 /* Assets.xcassets */,
@@ -85,6 +115,79 @@
 				5A441D982B73D2FE00F50C03 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5A441DA22B73D36A00F50C03 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5A441DA02B73D36300F50C03 /* TextFieldAndSendButtonView.swift */,
+				5A441DA62B73D4C300F50C03 /* Chats */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5A441DA32B73D3B300F50C03 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				5A441DA42B73D3EE00F50C03 /* ContentViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		5A441DA62B73D4C300F50C03 /* Chats */ = {
+			isa = PBXGroup;
+			children = (
+				5A441DC62B73F2EC00F50C03 /* ChatView.swift */,
+				5A441DA72B73D4EB00F50C03 /* SendChatView.swift */,
+				5A441DA92B73D7FA00F50C03 /* ReceivedMessagesView.swift */,
+			);
+			path = Chats;
+			sourceTree = "<group>";
+		};
+		5A441DAF2B73DA1100F50C03 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5A441DB92B73DB6700F50C03 /* Communicate */,
+				5A441DB52B73DA6400F50C03 /* GetPlist */,
+				5A441DB22B73DA3D00F50C03 /* Errors */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5A441DB22B73DA3D00F50C03 /* Errors */ = {
+			isa = PBXGroup;
+			children = (
+				5A441DB02B73DA2700F50C03 /* CommunicationError.swift */,
+			);
+			path = Errors;
+			sourceTree = "<group>";
+		};
+		5A441DB52B73DA6400F50C03 /* GetPlist */ = {
+			isa = PBXGroup;
+			children = (
+				5A441DB32B73DA5B00F50C03 /* GetPropertyList.swift */,
+				5A441DB62B73DA9B00F50C03 /* Common.swift */,
+			);
+			path = GetPlist;
+			sourceTree = "<group>";
+		};
+		5A441DB92B73DB6700F50C03 /* Communicate */ = {
+			isa = PBXGroup;
+			children = (
+				5A441DC12B73E36200F50C03 /* Messages */,
+				5A441DBB2B73DBAF00F50C03 /* APIResponse.swift */,
+				5A441DBF2B73E0FB00F50C03 /* RequestHttpBody.swift */,
+				5A441DBD2B73DC1E00F50C03 /* APICliant.swift */,
+			);
+			path = Communicate;
+			sourceTree = "<group>";
+		};
+		5A441DC12B73E36200F50C03 /* Messages */ = {
+			isa = PBXGroup;
+			children = (
+				5A441DC22B73E36D00F50C03 /* MessageManager.swift */,
+			);
+			path = Messages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,6 +253,7 @@
 			files = (
 				5A441D962B73D2FE00F50C03 /* Assets.xcassets in Resources */,
 				5A441D992B73D2FE00F50C03 /* Preview Assets.xcassets in Resources */,
+				5A441DAE2B73D9BF00F50C03 /* APIInfo.plist in Resources */,
 				5A441D942B73D2FD00F50C03 /* ImageBasedLighting.skybox in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -161,9 +265,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A441DB12B73DA2700F50C03 /* CommunicationError.swift in Sources */,
+				5A441DB42B73DA5B00F50C03 /* GetPropertyList.swift in Sources */,
+				5A441DA82B73D4EB00F50C03 /* SendChatView.swift in Sources */,
 				5A441D902B73D2FD00F50C03 /* ContentView.swift in Sources */,
+				5A441DC72B73F2EC00F50C03 /* ChatView.swift in Sources */,
+				5A441DB72B73DA9B00F50C03 /* Common.swift in Sources */,
+				5A441DC02B73E0FB00F50C03 /* RequestHttpBody.swift in Sources */,
+				5A441DBC2B73DBAF00F50C03 /* APIResponse.swift in Sources */,
+				5A441DAA2B73D7FA00F50C03 /* ReceivedMessagesView.swift in Sources */,
+				5A441DBE2B73DC1E00F50C03 /* APICliant.swift in Sources */,
 				5A441D8E2B73D2FD00F50C03 /* TalkWithChatGPTonVisionOSApp.swift in Sources */,
+				5A441DA12B73D36300F50C03 /* TextFieldAndSendButtonView.swift in Sources */,
+				5A441DC32B73E36D00F50C03 /* MessageManager.swift in Sources */,
 				5A441D922B73D2FD00F50C03 /* ImmersiveView.swift in Sources */,
+				5A441DA52B73D3EE00F50C03 /* ContentViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
