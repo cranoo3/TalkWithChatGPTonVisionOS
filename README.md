@@ -27,6 +27,7 @@ ChatGPTと話せるアプリ
 |環境 | バージョン|
 |---|---|
 | PC | MacBook Pro M3Pro 36GB RAM |
+| OS | MacOS Sonoma 14.1 | 
 | IDE | Xode 15.2 beta|
 | Swift | Swift5.9 |
 | interface | SwiftUI |
